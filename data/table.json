@@ -1,0 +1,42 @@
+data = [
+	{
+		"_id": 1,
+		"title": "Empire State",
+		"founded": 1999,
+		"high": "2012 m",
+		"arquitecto": "Abraham Silberschatz",
+		"arquitecto_id": 1,
+		"ciudad": "Nueva York",
+		"ciudad_id": 1
+	},
+	{
+		"_id": 2,
+		"title": "edificio2",
+		"founded": 1999,
+		"high": "2012 m",
+		"arquitecto": "Abraham Silberschatz",
+		"arquitecto_id": 1,
+		"ciudad": "Nueva York",
+		"ciudad_id": 1
+	},
+	{
+		"_id": 3,
+		"title": "edificio3",
+		"founded": 1999,
+		"high": "2012 m",
+		"arquitecto": "Juan Perez",
+		"arquitecto_id": 2,
+		"ciudad": "CR",
+		"ciudad_id": 2
+	},
+	{
+		"_id": 4,
+		"title": "edificio4",
+		"founded": 1999,
+		"high": "2012 m",
+		"arquitecto": "Juan Perez",
+		"arquitecto_id": 2,
+		"ciudad": "CR",
+		"ciudad_id": 2
+	}
+]

@@ -1,0 +1,38 @@
+<h4 style="margin-top: 15px">{{ title }}</h4>
+<h5>Building details</h5>
+<form>
+  <div class="row">
+    <div class="six columns">
+       <label for="idInput">ID</label>
+       <input class="u-full-width" type="text" id="_id" value="{{ _id }}" readonly/>
+    </div>
+  </div>
+  <div class="row">
+    <div class="six columns">
+       <label for="foundedInput">Founded</label>
+       <input class="u-full-width" type="text" id="founded" 
+	          value="{{founded }}" readonly/>
+    </div>
+    <div class="six columns">
+       <label for="highInput">High</label>
+       <input class="u-full-width" type="text" id="high" 
+	          value="{{ high }}" readonly/>
+    </div>
+  </div>
+  <div class="row">
+    <div class="six columns">
+       <label for=" arquitectoInput">Arquitecto o Empresa</label>
+       <a href="https://arquitectos-minisite.netlify.app/get/?id={{ arquitecto_id }}">
+         <input class="u-full-width" type="button" id=" arquitecto" 
+		        value="{{ arquitecto }}" readonly/>
+       </a>
+    </div>
+    <div class="six columns">
+       <label for="ciudadInput">Ciudad</label>
+       <a href="https://ciudades-minisite.netlify.app/get/?id={{ ciudad_id }}">
+         <input class="u-full-width" type="button" id="ciudad" 
+		        value="{{ ciudad }}" readonly/>
+       </a>
+    </div>
+  </div>
+</form>
